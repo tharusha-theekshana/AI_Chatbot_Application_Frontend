@@ -2,7 +2,7 @@
 
 import {useState} from 'react';
 import {sendMessageToBot} from "@/app/service/chat_service";
-import styles from '../styles/ChatBot.module.css';
+import styles from '../styles/chatbot.module.css';
 
 export default function ChatBot() {
     const [messages, setMessages] = useState([]);
