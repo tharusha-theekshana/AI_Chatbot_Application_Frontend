@@ -1,9 +1,10 @@
-import styles from "./page.module.css";
+import ChatView from "@/app/pages/chat_view";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-     <h1> Main Page </h1>
-    </div>
+      <div>
+          <ChatView />
+      </div>
+
   );
 }
