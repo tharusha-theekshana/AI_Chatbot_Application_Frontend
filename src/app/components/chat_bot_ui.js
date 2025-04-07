@@ -25,7 +25,7 @@ export default function ChatBot() {
         } catch (error) {
             setMessages((prev) => [
                 ...prev,
-                {text: 'Failed to fetch response.', sender: 'bot'},
+                {text: 'Failed to fetch response 😢. Please Try again.', sender: 'bot'},
             ]);
         } finally {
             setLoading(false);
