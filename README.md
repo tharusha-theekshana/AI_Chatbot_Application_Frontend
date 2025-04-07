@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Chatbot Application Frontend (Next.js)
 
-## Getting Started
+## Requirements
+- Node.js v22.13.0
+- Docker (optional)
 
-First, run the development server:
+## Setup the project locally
+1. Clone the Repository.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   command : **git clone https://github.com/tharusha-theekshana/AI_Chatbot_Application_Frontend**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
+2. Navigate to the Project Directory and open terminal.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+3. Install Dependencies.
 
-To learn more about Next.js, take a look at the following resources:
+    command : **npm install**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Run the Development Server.
 
-## Deploy on Vercel
+   command : **npm run dev**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Open the App in Your Browser. **http://localhost:3000**
+
+
+6. Run with Docker if you need (Optional).
+
+   command : **docker compose up --build**
+
+    Url : **http://localhost:3000**
+
+
+## Setup the project for Production
+1. Build Application for Production.
+
+   command : **npm run build**
+
+
+2. Start the Production Server. 
+
+     command : **npm start**
+
+
+
+
+   
